@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Laila');
+
+/*variabel type dan ukuran font*/
+:root{
+	--serif-font: "Dancing Script", serif;
+    --sans-font: "Laila", sans-serif;
+	--base-font-size: 1.15 rem;
+}
+
+/*mengatur bg body,ukuran,warna dan bentuk font*/
+body{
+	background: url(../image/bg1.jpg);
+	font-family: var(--sans-font);
+	font-size: var(--base-font-size);
+	color: #333333;
+}
+
+/*mengatur warna dan animasi link*/
+.container a{
+	color: saddlebrown;
+}
+.container a:hover{
+	color: #FF0000;
+	text-decoration: none;
+}
+
+/*mengatur warna bg dan border navbar*/
+.navbar-expand-lg{
+	background:#F4D782;
+	border: 2px solid #CCA74B;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+
+/*memberi margin dan mengatur ukuran pada logo*/
+.navbar-brand img{
+	width:8rem;
+	height:3rem;
+	margin-bottom:1rem;
+}
+
+/*mengatur bg,margin dan border pada main*/
+main{
+	background:#F4D782;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: #CCA74B 2px solid;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: justify;
+}
+
+/*mengatur margin pada slider*/
+.carousel{
+	margin-bottom: 15px;
+}
+
+/*mengatur margin pada gambar*/
+.mx-auto{
+	margin-top: 1.15rem;
+}
+
+/*mengatur posisi keterangan gambar*/
+.figure-caption{
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*mengatur jenis font pada kata ukuran h1 dan h5*/
+h1{
+	font-family:var(--serif-font);
+}
+
+h5{
+	font-family: var(--sans-font);
+}
+
+/*memberikan border pada kata ukuran h1*/
+h1{
+	color: saddlebrown;
+	border-bottom: solid 1px saddlebrown;
+}
+
+/*mengatur jenis dan ukuran font*/
+article{
+	font-size: calc(var(--base-font-size) * 1.15);
+	font-family: var(--sans-font);
+}
+
+/*memberi warna dan margin pada kalimat pertama paragraf*/
+span{
+	margin-left: 20px;
+	color: saddlebrown;
+}
+
+/*mengatur posisi text,background dan border pada card*/
+.card{
+	background:#F6DE98!important;
+	border: 1px solid #F4E79F!important;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+/*mengatur ukuran dan posisi pada tautan youtube*/
+iframe{
+	width:100%; 
+	height:100%;
+	position:absolute;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+/*mengatur warna,huruf,posisi text,border dan padding pada footer*/
+footer{
+	background:#F4D782;
+	text-align: center;
+	border: #CCA74B solid 2px;
+	border-radius: 5px;
+	padding: 10px;
+	color: saddlebrown;
+	margin-bottom: 5px;
+}
+#pills-tab .active{
+	background-color: saddlebrown;
+}
